@@ -526,12 +526,12 @@
         // Define difference coordinates (as percentages of image dimensions)
         // Based on the red circles in the reference image
         const differences = [
-            // Yellow fish/butterfly - upper left corner
-            { x: 8, y: 18, radius: 50, name: "Yellow Fish" },
-            // Cat headband ear - top center (left ear)
-            { x: 35, y: 8, radius: 60, name: "Headband Ear" },
-            // White cat's nose - center bottom
-            { x: 38, y: 68, radius: 54, name: "Cat Nose" }
+            // Yellow fish/butterfly - upper left corner (moved down by radius)
+            { x: 8, y: 24, radius: 6, name: "Yellow Fish" },
+            // Cat headband ear - top center (moved right by radius)
+            { x: 40, y: 8, radius: 5, name: "Headband Ear" },
+            // White cat's nose - center bottom (moved down by 2x radius)
+            { x: 38, y: 76, radius: 4, name: "Cat Nose" }
         ];
 
         // DOM elements
