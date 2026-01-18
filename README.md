@@ -1,6 +1,6 @@
 # 🐱 Gabby Cat - Find the Differences!
 
-An interactive "Spot the Difference" game featuring Gabby and her adorable cat friends!
+An interactive "Spot the Difference" game featuring Gabby and her adorable cat friends - now with 2 levels!
 
 ## 🎮 Play the Game
 
@@ -8,7 +8,12 @@ An interactive "Spot the Difference" game featuring Gabby and her adorable cat f
 
 ## ✨ Features
 
-- **3 Hidden Differences** - Can you find them all with Gabby?
+- **2 Exciting Levels!**
+  - Level 1: 3 differences (Gabby with her favorite cats)
+  - Level 2: 5 differences (The whole Gabby's Dollhouse crew!)
+- **Easy Level Navigation** - Move between levels with one click
+- **Confetti Celebration** - Colorful burst when you find each difference!
+- **Bright Red Circles** - Clear visual feedback (8px thick borders)
 - **Kid-Friendly Design** - Bright colors and fun animations
 - **Interactive Gameplay** - Click on either image to mark differences
 - **Visual Feedback** - Green circles for correct finds, red X for misses
@@ -17,11 +22,19 @@ An interactive "Spot the Difference" game featuring Gabby and her adorable cat f
 - **Responsive Design** - Perfect on phones, tablets, and computers
 - **Victory Celebration** - Fun "Purrfect!" message when you win
 
-## 🎯 The 3 Differences
+## 🎯 The Differences
 
+### Level 1 (3 differences):
 1. **Yellow Fish/Butterfly** - A bright yellow creature appears in the upper left corner
 2. **Cat Headband Ear** - The left ear on Gabby's headband changes from pink to white
 3. **White Cat's Nose** - The white cat's nose gets more detailed with nostrils
+
+### Level 2 (5 differences):
+1. **Pink Cat** - Pink cat appears in a different position (upper left)
+2. **Paw Print** - A paw print appears in the background (upper right)
+3. **Purple Cat Accessory** - Small detail changes on the purple cat (left side)
+4. **Orange Cat** - An orange cat replaces the blue cat (center)
+5. **White Fluffy Cat** - Position or appearance changes (bottom center)
 
 ## 🚀 Getting Started
 
@@ -47,9 +60,12 @@ That's it! No installation or setup needed!
 
 ```
 gabby-cat-differences/
-├── index.html          # Complete game (HTML, CSS, JS in one file)
-├── image1.png          # Original Gabby Cat scene
-├── image2.png          # Scene with 3 differences
+├── index.html          # Level 1 game (3 differences)
+├── level2.html         # Level 2 game (5 differences)
+├── image1.png          # Level 1 original scene
+├── image2.png          # Level 1 with differences
+├── level2-image1.png   # Level 2 original scene
+├── level2-image2.png   # Level 2 with differences
 └── README.md           # This file
 ```
 
