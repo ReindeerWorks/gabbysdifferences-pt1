@@ -440,7 +440,7 @@
     <div class="container">
         <header>
             <h1><span class="cat-emoji">🐱</span> Gabby Cat - Level 2! <span class="cat-emoji">🐱</span></h1>
-            <div class="subtitle">Can you spot all 5 differences with the whole crew?</div>
+            <div class="subtitle">Can you spot all 6 differences with the whole crew?</div>
             <div class="instructions">
                 Click on the differences you find in either picture!
             </div>
@@ -453,7 +453,7 @@
             </div>
             <div class="info-item">
                 <div class="info-label">Total</div>
-                <div class="info-value" id="total-count">5</div>
+                <div class="info-value" id="total-count">6</div>
             </div>
             <div class="info-item">
                 <div class="info-label">Timer</div>
@@ -537,7 +537,9 @@
             // Orange cat - center (replaces blue cat)
             { x: 60, y: 78, radius: 20, name: "Orange Cat" },
             // White fluffy cat - bottom center
-            { x: 45, y: 78, radius: 18, name: "White Cat" }
+            { x: 45, y: 85, radius: 18, name: "White Cat" },
+            // Girls arm - above Orange cat
+            { x: 68, y: 48, radius: 8, name: "Girl's Arm" }
         ];
 
         // DOM elements
@@ -800,7 +802,7 @@
                 }
             });
             
-            gameState.found = new Set([0, 1, 2, 3, 4]);
+            gameState.found = new Set([0, 1, 2, 3, 4, 5]);
             updateUI();
         }
 
